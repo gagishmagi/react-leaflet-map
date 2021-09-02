@@ -6,6 +6,8 @@ import axios from 'axios'
 import { useState } from 'react';
 
 import LeafletMap from './Components/LeafletMap/Map'
+import MyMap from './Components/GoogleMap/Map'
+
 
 
 function App() {
@@ -55,7 +57,8 @@ function App() {
         <br />
         <button>submit</button>
       </form>
-      <LeafletMap/>
+      {/* <LeafletMap/> */}
+      <MyMap/>
       </header>
     </div>
   );
